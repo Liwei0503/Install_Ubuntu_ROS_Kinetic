@@ -5,7 +5,7 @@ sudo apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-key 421C365BD9FF1F71781
 sudo apt-get update
 
 # Installation
-sudo apt-get install ros-kinetic-desktop-full
+sudo apt-get install -y ros-kinetic-desktop-full
 apt-cache search ros-kinetic
 
 # Initialize rosdep
